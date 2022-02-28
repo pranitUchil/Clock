@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(248 246 244);
+}
+
+#container{
+    position: relative;
+    background-image: url('clock.jpg');
+    margin: auto;
+    height: 55vw;
+    width: 80vw;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#first,#second,#three{
+    position:absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transform-origin: bottom;
+}
+
+#first{
+    height: 38%;
+    width: 0.5%;
+    left: 49.195%;
+    top: 15%;
+    /* display:none; */
+}
+#second{
+    height: 32%;
+    width: 1%;
+    left: 49%;
+    top: 21%;
+    /* display:none; */
+}
+#three{
+    height: 23%;
+    width: 1.5%;
+    left: 48.7%;
+    top: 30%;
+    
+
+}
